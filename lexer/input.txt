@@ -1,0 +1,13 @@
+void main(string[] args)
+{
+	int a=5+4;
+	if (a==5)
+	{
+		a=a/3;
+	}
+
+	if (a<>4)
+	{
+		bool b=3<=3;
+	}
+}
