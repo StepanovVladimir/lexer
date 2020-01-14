@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    Lexer lexer("input.txt");
+	Lexer lexer("input.txt");
 	while (!lexer.isEof())
 	{
 		Token token = lexer.getToken();
