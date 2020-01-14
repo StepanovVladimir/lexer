@@ -22,5 +22,8 @@ std::set<std::string> KEYWORDS
 	"float",
 	"string",
 	"void",
-	"struct"
+	"struct",
+	"main",
+	"print",
+	"read"
 };

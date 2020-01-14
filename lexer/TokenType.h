@@ -5,6 +5,8 @@ enum struct TokenType
 	Id,
 	Integer,
 	Float,
+	Binary,
+	Hexadecimal,
 	Char,
 	String,
 	Keyword,

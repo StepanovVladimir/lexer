@@ -9,6 +9,5 @@ int main()
 	while (!lexer.isEof())
 	{
 		Token token = lexer.getToken();
-		token.lineNumber++;
 	}
 }

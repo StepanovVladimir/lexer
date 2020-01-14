@@ -51,7 +51,7 @@ Token Lexer::getToken()
 			}
 			else
 			{
-				nextState = LEXER_MACHINE[stateId].transitions[16];
+				nextState = LEXER_MACHINE[stateId].transitions[LEXER_MACHINE[0].transitions.size() - 1];
 			}
 
 			if (nextState == -1)
@@ -85,5 +85,4 @@ Token Lexer::getToken()
 	}
 	
 	return Token{ LEXER_MACHINE[stateId].tokenType, value, lineNumber };
-	//auto iter = CHARS_IDS.find(curLine[chIndex]);
 }
